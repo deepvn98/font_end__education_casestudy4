@@ -9,7 +9,7 @@ function changeViewSubject(){
             console.log("in ra mang mang ", subjectList )
 
             let c="";
-            c+= '<select className="form-control"  id="user_subject" name="subject" multiple>'
+            c+= '<select className="form-control"  id="user_subject" name="subjects"  style="width: 100px" multiple>'
                  for (let i = 0; i < subjectList.length; i++) {
 
                 c+= `<option value="${subjectList[i].id}">${subjectList[i].name}</option>`
@@ -49,14 +49,29 @@ function addUser(){
 
     let subjects=$('#user_subject').val();
 
-    let form=$('#newUserForm')[10];
+    let form=$('#newUserForm')[0];
     let data = new FormData(form);
 
-    data.append("message","tap doi tuong thanh cong");
+    // data.append("message","tap doi tuong thanh cong");
 
     // disabled the submit button
     // $("#btnSubmit").prop("disabled", true);
 
     console.log(data)
+
+    $.ajax({
+        url: "http://localhost:8080/api/user/create",
+        type: 'POST',
+        data: data,
+        async: false,
+        cache: false,
+        contentType: false,
+        enctype: 'multipart/form-data',
+        processData: false,
+        success: function (response) {
+            alert(response);
+
+        }
+    });
 
 }
