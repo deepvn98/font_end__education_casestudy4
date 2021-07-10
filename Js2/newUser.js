@@ -10,9 +10,8 @@ function changeViewSubject(){
             let c="";
             c+= '<select className="form-control"  id="user_subject" name="subjects" multiple>'
                  for (let i = 0; i < subjectList.length; i++) {
-
-                c+= `<option value="${subjectList[i].id}">${subjectList[i].name}</option>`
-            }
+                 c+= `<option value="${subjectList[i].id}">${subjectList[i].name}</option>`
+                 }
             c+='</select>'
             document.getElementById("subjectList").innerHTML= c;
 
@@ -36,18 +35,18 @@ function teacherView(){
 }
 
 function addUser(){
-    // let role= $('.role_user').val();
-    // console.log(role);
-    // let name= $('#user_name').val();
-    // let username=$('#user_username').val();
-    // let password=$('#user_password').val();
-    // let email=$('#user_email').val();
-    // let phone=$('#user_phone').val();
-    // let address=$('#user_addr').val();
-    // let description=$('#user_des').val();
-    // let certificate=$('#user_cer').val();
-    //
-    // let subjects=$('#user_subject').val();
+    let role= $('.role_user').val();
+    console.log(role);
+    let name= $('#user_name').val();
+    let username=$('#user_username').val();
+    let password=$('#user_password').val();
+    let email=$('#user_email').val();
+    let phone=$('#user_phone').val();
+    let address=$('#user_addr').val();
+    let description=$('#user_des').val();
+    let certificate=$('#user_cer').val();
+
+    let subjects=$('#user_subject').val();
 
     let form=$('#newUserForm')[0];
     let data = new FormData(form);
@@ -73,26 +72,18 @@ function addUser(){
 
 function checkUser(){
     let username= localStorage.getItem("role");
-    if (username===""){
-
-        // $('#myModal').on('shown.bs.modal', function () {
-        //     $('#myInput').trigger('focus')
-        // })
-
-
-    }
-
-}
-
-function checkUser(){
-    let username= localStorage.getItem("role");
-    if (username===""){
-
-        // $('#myModal').on('shown.bs.modal', function () {
-        //     $('#myInput').trigger('focus')
-        // })
-
-
-    }
+    if (username==""){
+     //chuyen sang mot Modal
+        $('#login-modal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+   }
+    window.open(index.html)
 
 }
+function changePageCreate(){
+    alert("da vao function")
+    window.open("newTeacher.html");
+}
+
+

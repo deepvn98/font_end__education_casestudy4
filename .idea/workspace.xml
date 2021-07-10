@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33a50f0f-3038-473f-8beb-4d4230332877" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_10_2021_1_00_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_10_2021_1_00_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js2/newUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js2/newUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newTeacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/newTeacher.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +59,7 @@
       <workItem from="1625760194094" duration="12000" />
       <workItem from="1625794579815" duration="20757000" />
       <workItem from="1625880391849" duration="9043000" />
+      <workItem from="1625899808631" duration="5595000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;create done&quot;&#10;&#10;This reverts commit 0fb46096">
       <created>1625844090787</created>
@@ -62,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625844090787</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nghi trua ngay 7">
+      <created>1625897034378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625897034378</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revert &quot;create done&quot;&#10;&#10;This reverts commit 0fb46096" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;create done&quot;&#10;&#10;This reverts commit 0fb46096" />
+    <MESSAGE value="nghi trua ngay 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="nghi trua ngay 7" />
   </component>
 </project>
