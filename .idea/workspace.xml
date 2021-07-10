@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a50f0f-3038-473f-8beb-4d4230332877" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js2/newUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js2/newUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="33a50f0f-3038-473f-8beb-4d4230332877" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +51,7 @@
       <workItem from="1625753359139" duration="1951000" />
       <workItem from="1625760194094" duration="12000" />
       <workItem from="1625794579815" duration="20757000" />
-      <workItem from="1625880391849" duration="8658000" />
+      <workItem from="1625880391849" duration="9043000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;create done&quot;&#10;&#10;This reverts commit 0fb46096">
       <created>1625844090787</created>
