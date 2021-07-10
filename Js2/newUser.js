@@ -83,3 +83,16 @@ function checkUser(){
     }
 
 }
+
+function checkUser(){
+    let username= localStorage.getItem("role");
+    if (username===""){
+
+        // $('#myModal').on('shown.bs.modal', function () {
+        //     $('#myInput').trigger('focus')
+        // })
+
+
+    }
+
+}
